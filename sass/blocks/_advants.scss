@@ -1,0 +1,37 @@
+.advants {
+    min-height: 472px;
+    padding: 70px 0 85px 0;
+    &__wrapper {
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    &__item {
+        width: 220px;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__subheader {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0d0d0d;
+        text-align: center;
+        margin-top: 35px;
+        line-height: .9;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 11px;
+        color: #0d0d0d;
+        text-align: center;
+        margin-top: 25px;
+        span {
+            color: $main-color;
+            text-decoration: underline;
+        }
+    }
+}
